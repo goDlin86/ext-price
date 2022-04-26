@@ -1,0 +1,24 @@
+{
+    "name": "price",
+    "version": "1.5",
+    "description": "Get mac mini price",
+    "scripts": {
+        "clean": "rm -rf dist/",
+        "build": "parcel build ./src/index.html --public-url ./"
+    },
+    "keywords": [
+        "price",
+        "mac mini"
+    ],
+    "author": "goDlin",
+    "license": "ISC",
+    "dependencies": {
+        "dayjs": "^1.8.35",
+        "node-html-parser": "^5.3.3",
+        "react": "^18.0.0",
+        "react-dom": "^18.0.0"
+    },
+    "devDependencies": {
+        "parcel": "^2.0.0"
+    }
+}
